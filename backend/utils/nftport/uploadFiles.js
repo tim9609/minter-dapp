@@ -15,6 +15,7 @@ const regex = new RegExp("^([0-9]+).png");
 async function main() {
   console.log("Starting upload of images...");
   const files = fs.readdirSync(`${basePath}/build/images`);
+  
   files.sort(function(a, b){
     return a.split(".")[0] - b.split(".")[0];
   });
