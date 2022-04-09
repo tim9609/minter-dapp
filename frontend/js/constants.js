@@ -1,9 +1,9 @@
 const contractAddress = "0xb3A6B8b47475F7dB8D32d21eCAe640c36C37D22B"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to the CABC NFT Project!!";
+const welcome_h1 = "Welcome to the CABC NFT Project!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The CABC NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection.';
+const welcome_p = 'The CABC is a decentralized, sustainable project that gives you access to the club and also donates 25% of the profits.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
