@@ -9,10 +9,10 @@
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
   --bg-color: #434399;
-  --bg-color-transparent: #43439971;
-  --font-color: #729AE3;
-  --btn-bg-color: #ffffff;
-  --accent-color: #25182e;
+  --bg-color-transparent: #3c3c6671;
+  --font-color: #99b7ef;
+  --btn-bg-color: #ffec6e;
+  --accent-color: #1b1520;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -341,7 +341,7 @@ section {
 }
 
 /* MEDIA QUERIES */
-
+/*
 @media screen and (max-width: 400px) {
   .menu {
     gap: 1rem;
@@ -388,6 +388,7 @@ section {
     font-size: 13px;
   }
 }
+*/
 
 @media screen and (max-width: 768px) {
   .menu {
