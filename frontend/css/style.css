@@ -35,7 +35,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 700px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: center;
@@ -342,7 +342,7 @@ section {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 503px) {
+@media screen and (max-width: 898px) {
   body {
     background-color: var(--bg-color);
     display: flex;
@@ -356,74 +356,6 @@ section {
     display: flex;
     flex-direction: column;
     max-width: 400px;
-    margin: 0 auto;
-    padding: 1rem 2rem;
-    justify-content: center;
-    overflow: hidden;
-  }
-
-  .menu {
-    gap: 1rem;
-  }
-  .wallet-btn {
-    margin-left: 0;
-    padding: 0.5rem 1rem;
-    max-width: 8rem;
-  }
-  .not-connected {
-    background-color: var(--bg-color-transparent);
-    border-radius: 5px;
-    padding: 2rem;
-    margin: 0 auto;
-  }
-  .countdown ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .countdown .clock-item {
-    width: 100%;
-  }
-  .countdown .clock-item .count-number {
-    font-size: 1.5rem;
-  }
-  .countdown .clock-item .count-text {
-    font-size: 1rem;
-  }
-  .countdown h1 {
-    font-size: 2rem;
-    margin: 1rem 0;
-  }
-  .countdown h2 {
-    padding-top: 0.5rem;
-  }
-  .countdown p {
-    font-size: 1rem;
-  }
-  .card {
-    padding: 1rem;
-  }
-  .mint-qty .btn {
-    padding: 1rem;
-    font-size: 13px;
-  }
-}
-
-
-@media screen and (min-width: 503px) {
-  /*
-  body {
-    background-color: var(--bg-color);
-    display: flex;
-    flex-flow: column;
-    height: 100vh;
-    color: var(--font-color);
-    font-family: var(--font-primary);
-  }*/
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-    max-width: 700px;
     margin: 0 auto;
     padding: 1rem 2rem;
     justify-content: center;
