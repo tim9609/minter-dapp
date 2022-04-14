@@ -27,7 +27,7 @@ body {
   background-color: var(--bg-color);
   display: flex;
   flex-flow: column;
-  height: 130vh;
+  height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
 }
@@ -35,7 +35,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 400px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: center;
@@ -78,7 +78,7 @@ header .container {
 }
 
 .not-connected h1 {
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 2.5px 2.5px 0 var(--accent-color);
   font-style: italic;
   margin: 2rem 0;
   font-size: 3.5rem;
@@ -341,8 +341,27 @@ section {
 }
 
 /* MEDIA QUERIES */
-/*
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 503px) {
+  body {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-flow: column;
+    height: 130vh;
+    color: var(--font-color);
+    font-family: var(--font-primary);
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    justify-content: center;
+    overflow: hidden;
+  }
+
   .menu {
     gap: 1rem;
   }
@@ -388,9 +407,29 @@ section {
     font-size: 13px;
   }
 }
-*/
 
-@media screen and (max-width: 768px) {
+
+@media screen and (min-width: 503px) {
+  /*
+  body {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    color: var(--font-color);
+    font-family: var(--font-primary);
+  }*/
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    justify-content: center;
+    overflow: hidden;
+  }
+
   .menu {
     gap: 1rem;
   }
