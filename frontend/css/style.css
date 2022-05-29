@@ -346,7 +346,7 @@ section {
 @media screen and (max-width: 898px) {
   body {
     background-color: var(--bg-color);
-    display: flex;
+    display: flex; 
     flex-flow: column;
     height: 130vh;
     color: var(--font-color);
