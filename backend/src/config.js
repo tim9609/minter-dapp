@@ -14,7 +14,7 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 500,
+    growEditionSizeTo: 50,
     layersOrder: [
       { name: "Background" },
       { name: "Platform" },
@@ -30,12 +30,12 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 800,
+    growEditionSizeTo: 80,
     layersOrder: [
       { name: "Background" },
       { name: "Platform" },
-      { name: "Special legs" }, 
-      { name: "Sweater" },
+      { name: "Sweater" }, 
+      { name: "Legs" },
       { name: "Pin" }, 
       { name: "Skincolor" },
       { name: "Mouth" }, 
@@ -47,11 +47,11 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 1000,
+    growEditionSizeTo: 100,
     layersOrder: [
       { name: "Background" },
       { name: "Platform" },
-      { name: "Legs" }, 
+      { name: "Special legs" }, 
       { name: "Tshirts" },
       { name: "Pin" }, 
       { name: "Skincolor" },
