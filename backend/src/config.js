@@ -14,7 +14,7 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 50,
+    growEditionSizeTo: 2000,
     layersOrder: [
       { name: "Background" },
       { name: "Platform" },
@@ -30,12 +30,12 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 80,
+    growEditionSizeTo: 2750,
     layersOrder: [
       { name: "Background" },
       { name: "Platform" },
-      { name: "Sweater" }, 
-      { name: "Legs" },
+      { name: "Legs" }, 
+      { name: "Sweater" },
       { name: "Pin" }, 
       { name: "Skincolor" },
       { name: "Mouth" }, 
@@ -47,7 +47,24 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 100,
+    growEditionSizeTo: 3500,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Platform" },
+      { name: "Special legs" }, 
+      { name: "Sweater" },
+      { name: "Pin" }, 
+      { name: "Skincolor" },
+      { name: "Mouth" }, 
+      { name: "Nose" }, 
+      { name: "Eyes" },
+      { name: "Ears" },
+      { name: "Brows" },
+      { name: "Accessories" },
+    ],
+  },
+  {
+    growEditionSizeTo: 5000,
     layersOrder: [
       { name: "Background" },
       { name: "Platform" },
@@ -100,7 +117,7 @@ const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a singl
 const PUBLIC_MINT_START_DATE = "2022-07-31T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-07-30T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xBF058C3797a505BB134DcDd5139f396bD00Cb13b"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
